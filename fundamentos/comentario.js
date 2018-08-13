@@ -2,6 +2,9 @@
 console.log(`comentario`);
 
 /*
- Comentarios de multiplas linhas
+ * Comentarios de multiplas linhas
+ *
+ *
+ *
 */
 console.log(`comentario 2`);
