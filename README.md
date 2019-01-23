@@ -1,8 +1,8 @@
 
 # Curso Web Moderno com JavaScript
-Informacoes
+Informações
 
-Repositorio criado para acompanhar desde o inicio o Curso Web Moderno com JavaScript
+Repositório criado para acompanhar desde o Curso Web Moderno com JavaScript
 
 Inicio -> 10/08/2018
 
@@ -15,3 +15,10 @@ Professor -> Leonardo Moura Leitao
 Escola -> cod3r
 
 Site -> cod3r.com.br
+
+
+
+
+///// EXECUTAR CLASSES COM NODE ////
+exemplo:
+no terminal digitar 'node arquivo.js'

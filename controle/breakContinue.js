@@ -8,6 +8,21 @@ for (x in nums) {
 }
 
 for (y in nums) {
-    if (y == 5) continue;
+    if (y == 5) continue; // Interrompe quando y = 5 e vai pra proxima repeticao
     console.log(`${y} = ${nums[y]}`)
 }
+
+// ROTULO externo
+externo:
+for (a in nums) {
+    for (b in nums) {
+        if (a == 2 && b == 3) break externo; // para interromper o laco mais externo COM O ROTULO externo
+            console.log(`Par = ${a}, ${b}`);
+
+    }
+}
+
+
+// tanto BREAK quanto CONTINUE interrompem o fluxo
+// BREAK => quebra o laco corrente
+// CONTINUE => segue para proxima iteracao do laco corrente
