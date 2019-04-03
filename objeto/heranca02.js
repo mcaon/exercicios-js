@@ -1,5 +1,5 @@
 // Cadeia de prototipos (prototype chain)
-Object.prototype.attr0 = 'Z';
+Object.prototype.attr0 = 'Z'; // Evitar esta manipulacao
 const avo = { attr1: 'A'}; // tem o Prototype Object
 const pai = { __proto__: avo, attr2: 'B'};
 const filho = { __proto__: pai, attr3: 'C'};
